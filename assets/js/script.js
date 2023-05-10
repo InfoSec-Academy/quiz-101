@@ -50,7 +50,7 @@ function countdown() {
             clearInterval(timerVar);
             countdownEl.innerHTML = 0;
             completeMsg.textContent = "Üzgünüm, süre doldu!"
-            userScoreEl.textContent = userScore + "  " + 20 + " points";
+            userScoreEl.textContent = userScore + "  " + " points";
             if (userScore <= 3) {
                 userScoreMsgEl.textContent = "... Tekrar?";
             } else if (userScore > 3 && userScore <= 5) {
@@ -225,7 +225,7 @@ function changeQuestions(event) {
         fourthBtn.textContent = currentQuestion.fourthOption;
                 
     } else {
-        userScoreEl.textContent = userScore + "   " + 20 + " points";
+        userScoreEl.textContent = userScore + "   "  + " points";
         if (userScore <= 3) {
             userScoreMsgEl.textContent = "... Çok Kötü?";
         } else if (userScore > 3 && userScore <= 5) {

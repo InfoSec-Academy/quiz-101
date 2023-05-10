@@ -62,7 +62,7 @@ var questionArr = [
     //QUESTION 7
     question:  "Bir dizinden diğerine geçmenizi sağlar",
     firstOption: "mkdir", 
-    secondOption: "cd", 
+    secondOption: "change-directory", 
     thirdOption: "print", 
     fourthOption: "cd", 
     correctAnswer: "#fourth-option"
