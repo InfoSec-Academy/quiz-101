@@ -33,8 +33,8 @@ var questionArr = [
     question:  " Aşağıdakilerden hangisi Linux’ta en yaygın kullanılan dosya sistemidir. ext3’ün geliştirilmiş bir sürümüdür .",
     firstOption: "xfs",
     secondOption: "ext4", 
-    thirdOption: "",
-    fourthOption: "SysInit",
+    thirdOption: "vfat",
+    fourthOption: "ntfs",
     correctAnswer: "#second-option"
 
 },        {
